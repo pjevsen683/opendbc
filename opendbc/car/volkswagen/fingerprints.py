@@ -8,6 +8,20 @@ Ecu = CarParams.Ecu
 
 
 FW_VERSIONS = {
+  CAR.CUPRA_TAVASCAN_MK1: {
+    (Ecu.inverter, 0x17fc007c, None): [
+      b'\xf1\x870ET907121G \xf1\x897260\xf1\x82040',
+    ],
+    (Ecu.engine, 0x17fc0076, None): [
+      b'\xf1\x870EA906014GF\xf1\x894012',
+    ],
+    (Ecu.fwdRadar, 0x757, None): [
+      b'\xf1\x871EA907567D \xf1\x890250',
+    ],
+    (Ecu.fwdCamera, 0x74f, None): [
+      b'\xf1\x871ED980653F \xf1\x895570',
+    ],
+  },
   CAR.FORD_EXPLORER_EV_MK1: {
     (Ecu.inverter, 0x17fc007c, None): [
       b'\xf1\x871EA907121BJ\xf1\x896125\xf1\x82010\x00',
