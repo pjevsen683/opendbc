@@ -670,6 +670,14 @@ class CAR(Platforms):
     model_years={"N","P"},
     wmis={WMI.SEAT},
   )
+  CUPRA_TAVASCAN_MK1 = VolkswagenMEBPlatformConfig(
+    [VWCarDocs("CUPRA Tavascan 2024-25"),],
+    VolkswagenCarSpecs(mass=2060, wheelbase=2.766),
+    chassis_codes={"KR"},
+    model_years={"R", "S"},
+    wmis={WMI.SEAT},
+    flags=VolkswagenFlags.MEB_GEN2,
+  )
   SKODA_ENYAQ_MK1 = VolkswagenMEBPlatformConfig(
     [VWCarDocs("Škoda Enyaq 2021-23"),],
     VolkswagenCarSpecs(mass=1965, wheelbase=2.77),
