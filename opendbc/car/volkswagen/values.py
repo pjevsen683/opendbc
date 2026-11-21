@@ -678,7 +678,7 @@ class CAR(Platforms):
   )
   CUPRA_TAVASCAN_MK1 = VolkswagenMEBPlatformConfig(
     [VWCarDocs("CUPRA Tavascan 2024-25"),],
-    VolkswagenCarSpecs(mass=2060, wheelbase=2.766),
+    VolkswagenCarSpecs(wheelbase=2.766),
     chassis_codes={"KR"},
     model_years={"R", "S"},
     wmis={WMI.SEAT},
